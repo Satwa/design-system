@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="65" viewBox="0 0 310 65">
+  <defs>
+    <filter id="Rectangle_45" x="0" y="0" width="310" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Input_Hover" data-name="Input/Hover" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_45)">
+      <g id="Rectangle_45-2" data-name="Rectangle 45" transform="translate(9 6)" fill="none" stroke="#ff3e3e" stroke-width="1">
+        <rect width="292" height="47" rx="23.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="291" height="46" rx="23" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

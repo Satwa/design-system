@@ -1,35 +1,35 @@
 {
   "dsp_spec_version": "0.0.1",
-  "last_updated_by": "",
+  "last_updated_by": "Romain Penchenat",
   "last_updated": "2020-10-22T08:04:22.855Z",
   "entities": [
     {
       "class": "collection",
       "type": "font",
-      "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+      "id": "e8179504-1964-470a-8878-c0545685ba3b",
       "name": "text-large",
       "tags": [],
       "ext-com_adobe-cclib": {
         "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
         "id": "cf5a945c-8a77-4317-add7-a4fdb8ed5e36",
-        "last_sync": "2020-10-22T09:00:48.054Z",
+        "last_sync": "2020-10-22T09:08:39.491Z",
         "sync": true
       },
       "tokens": [
         {
-          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "id": "e8179504-1964-470a-8878-c0545685ba3b",
           "type": "custom",
           "value": "Lato",
           "key": "family"
         },
         {
-          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "id": "e8179504-1964-470a-8878-c0545685ba3b",
           "type": "custom",
           "value": "Bold",
           "key": "weight"
         },
         {
-          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "id": "e8179504-1964-470a-8878-c0545685ba3b",
           "type": "size",
           "value": "64",
           "key": "size"
@@ -39,30 +39,30 @@
     {
       "class": "collection",
       "type": "font",
-      "id": "05282e19-a147-4100-b239-8c4840254c4b",
+      "id": "28ffd660-0b01-4554-b63c-26dcf96e9457",
       "name": "text-body",
       "tags": [],
       "ext-com_adobe-cclib": {
         "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
         "id": "bf8112f0-aa68-4401-8002-6ff1a129ff20",
-        "last_sync": "2020-10-22T09:00:48.054Z",
+        "last_sync": "2020-10-22T09:08:39.491Z",
         "sync": true
       },
       "tokens": [
         {
-          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "id": "28ffd660-0b01-4554-b63c-26dcf96e9457",
           "type": "custom",
           "value": "Lato",
           "key": "family"
         },
         {
-          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "id": "28ffd660-0b01-4554-b63c-26dcf96e9457",
           "type": "custom",
           "value": "Regular",
           "key": "weight"
         },
         {
-          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "id": "28ffd660-0b01-4554-b63c-26dcf96e9457",
           "type": "size",
           "value": "16",
           "key": "size"
@@ -72,32 +72,98 @@
     {
       "class": "collection",
       "type": "font",
-      "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+      "id": "6c120127-389d-4921-a87d-62484edda1e0",
       "name": "text-body-bold",
       "tags": [],
       "ext-com_adobe-cclib": {
         "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
         "id": "aa3761b3-a606-456c-9905-bc53989ed173",
-        "last_sync": "2020-10-22T09:00:48.054Z",
+        "last_sync": "2020-10-22T09:08:39.491Z",
         "sync": true
       },
       "tokens": [
         {
-          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "id": "6c120127-389d-4921-a87d-62484edda1e0",
           "type": "custom",
           "value": "Lato",
           "key": "family"
         },
         {
-          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "id": "6c120127-389d-4921-a87d-62484edda1e0",
           "type": "custom",
           "value": "Bold",
           "key": "weight"
         },
         {
-          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "id": "6c120127-389d-4921-a87d-62484edda1e0",
           "type": "size",
           "value": "16",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "79acdc9a-d7c3-4434-a9ea-2155ecc7e75d",
+      "name": "text-h3",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "676e6301-9ea8-4624-95e4-a60f25532db9",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "79acdc9a-d7c3-4434-a9ea-2155ecc7e75d",
+          "type": "custom",
+          "value": "Lato",
+          "key": "family"
+        },
+        {
+          "id": "79acdc9a-d7c3-4434-a9ea-2155ecc7e75d",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "79acdc9a-d7c3-4434-a9ea-2155ecc7e75d",
+          "type": "size",
+          "value": "32",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "d1b1f45e-8c50-4886-a30a-89b197866a35",
+      "name": "text-h1",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "cf5a945c-8a77-4317-add7-a4fdb8ed5e36",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "d1b1f45e-8c50-4886-a30a-89b197866a35",
+          "type": "custom",
+          "value": "Lato",
+          "key": "family"
+        },
+        {
+          "id": "d1b1f45e-8c50-4886-a30a-89b197866a35",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "d1b1f45e-8c50-4886-a30a-89b197866a35",
+          "type": "size",
+          "value": "64",
           "key": "size"
         }
       ]

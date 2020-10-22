@@ -23,6 +23,22 @@
       "style": {
         "value": "Bold"
       }
+    },
+    "text-h3": {
+      "family": {
+        "value": "Lato"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    },
+    "text-h1": {
+      "family": {
+        "value": "Lato"
+      },
+      "style": {
+        "value": "Bold"
+      }
     }
   },
   "size": {
@@ -35,6 +51,12 @@
       },
       "text-body-bold": {
         "value": "16"
+      },
+      "text-h3": {
+        "value": "32"
+      },
+      "text-h1": {
+        "value": "64"
       }
     }
   }
