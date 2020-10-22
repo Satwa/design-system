@@ -17,14 +17,11 @@ export default function SignUp() {
 
 		const fields = document.querySelectorAll('form input')
 
-		console.log(fields)
 		if(!emailRegex.test(fields[0].value)) {
-			console.log("err email")
 			setEmailErrorMessage('Adresse e-mail invalide.')
 			setEmailError(true)
 		}
 		if(fields[1].value !== fields[2].value) {
-			console.log("err pwd")
 			setPwdErrorMessage('Vos deux mots de passe ne sont pas identiques.')
 			setPwdError(true)
 		}
