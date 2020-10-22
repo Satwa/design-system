@@ -1,13 +1,22 @@
 {
   "color": {
     "color-secondary": {
-      "value": "#83D195ff"
+      "value": "#2EC1ACff"
     },
     "color-primary": {
-      "value": "#AA6868ff"
+      "value": "#197568ff"
     },
     "color-background": {
-      "value": "#D6D6D6ff"
+      "value": "#FAFAFAff"
+    },
+    "color-text-secondary": {
+      "value": "#3E978Bff"
+    },
+    "color-text-primary": {
+      "value": "#2C2C2Cff"
+    },
+    "color-text-error": {
+      "value": "#FF3E3Eff"
     }
   }
 }

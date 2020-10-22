@@ -2,5 +2,105 @@
   "dsp_spec_version": "0.0.1",
   "last_updated_by": "",
   "last_updated": "2020-10-22T08:04:22.855Z",
-  "entities": []
+  "entities": [
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+      "name": "text-large",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "cf5a945c-8a77-4317-add7-a4fdb8ed5e36",
+        "last_sync": "2020-10-22T09:00:48.054Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "type": "custom",
+          "value": "Lato",
+          "key": "family"
+        },
+        {
+          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "b3897efe-7ca1-4372-9c42-579c01844f87",
+          "type": "size",
+          "value": "64",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "05282e19-a147-4100-b239-8c4840254c4b",
+      "name": "text-body",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "bf8112f0-aa68-4401-8002-6ff1a129ff20",
+        "last_sync": "2020-10-22T09:00:48.054Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "type": "custom",
+          "value": "Lato",
+          "key": "family"
+        },
+        {
+          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "05282e19-a147-4100-b239-8c4840254c4b",
+          "type": "size",
+          "value": "16",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+      "name": "text-body-bold",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "aa3761b3-a606-456c-9905-bc53989ed173",
+        "last_sync": "2020-10-22T09:00:48.054Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "type": "custom",
+          "value": "Lato",
+          "key": "family"
+        },
+        {
+          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "952c4714-be38-4555-87b6-badeaadccbcf",
+          "type": "size",
+          "value": "16",
+          "key": "size"
+        }
+      ]
+    }
+  ]
 }

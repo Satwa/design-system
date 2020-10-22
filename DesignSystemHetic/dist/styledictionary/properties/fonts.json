@@ -1,6 +1,41 @@
 {
-  "font": {},
+  "font": {
+    "text-large": {
+      "family": {
+        "value": "Lato"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    },
+    "text-body": {
+      "family": {
+        "value": "Lato"
+      },
+      "style": {
+        "value": "Regular"
+      }
+    },
+    "text-body-bold": {
+      "family": {
+        "value": "Lato"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    }
+  },
   "size": {
-    "font": {}
+    "font": {
+      "text-large": {
+        "value": "64"
+      },
+      "text-body": {
+        "value": "16"
+      },
+      "text-body-bold": {
+        "value": "16"
+      }
+    }
   }
 }
