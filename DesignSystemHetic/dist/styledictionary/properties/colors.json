@@ -1,0 +1,13 @@
+{
+  "color": {
+    "color-secondary": {
+      "value": "#83D195ff"
+    },
+    "color-primary": {
+      "value": "#AA6868ff"
+    },
+    "color-background": {
+      "value": "#D6D6D6ff"
+    }
+  }
+}
