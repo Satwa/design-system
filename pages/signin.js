@@ -1,6 +1,5 @@
 import Button from '../components/button'
 import InputBox from '../components/inputBox'
-import styles from '../styles/Home.module.scss'
 import React from 'react'
 
 export default function SignIn() {
@@ -22,7 +21,7 @@ export default function SignIn() {
 
 	return (
 		<main>
-			<h1>Sign In</h1>
+			<h1>Sign in</h1>
 			<span className='logoSmall'>🧠</span>
 			<Button to='/signup' inline>
 				Do not have an account yet? Register

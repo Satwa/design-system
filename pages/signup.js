@@ -11,17 +11,25 @@ export default function SignUp() {
 
 	const [emailError, setEmailError] = React.useState(false)
 	const [emailErrorMessage, setEmailErrorMessage] = React.useState(false)
+	
+	const [textError, setTextError] = React.useState(false)
+	const [textErrorMessage, setTextErrorMessage] = React.useState(false)
 
 	const _onFormSubmit = (ev) => {
 		ev.preventDefault()
 
 		const fields = document.querySelectorAll('form input')
 
-		if(!emailRegex.test(fields[0].value)) {
+		if(fields[0].value.trim().length === 0){
+			setTextErrorMessage('Alors comme ça vous n\'avez pas de nom ?')
+			setTextError(true)
+		}
+
+		if(!emailRegex.test(fields[1].value)) {
 			setEmailErrorMessage('Adresse e-mail invalide')
 			setEmailError(true)
 		}
-		if(fields[1].value !== fields[2].value) {
+		if(fields[2].value !== fields[3].value) {
 			setPwdErrorMessage('Les mots de passe ne correspondent pas')
 			setPwdError(true)
 		}
@@ -29,17 +37,14 @@ export default function SignUp() {
 
 	return (
 		<main>
-			<h1>Sign Up</h1>
-
-			<p>
-				Already got an account?
-				{' '}
-				<Button to='/signin' inline>
-					Sign in
-				</Button>
-			</p>
+			<h1>Sign up</h1>
+			<span className='logoSmall'>🧠</span>
+			<Button to='/signin' inline>
+				Already have an account? Log in
+			</Button>
 
 			<form method='POST' onSubmit={_onFormSubmit}>
+				<InputBox name='fullname' type='text' showError={textError} onChange={() => setTextError(false)} errorMessage={textErrorMessage} required>Full name</InputBox>
 				<InputBox name='email' type='email' showError={emailError} onChange={() => setEmailError(false)} errorMessage={emailErrorMessage} required>Email</InputBox>
 				<InputBox name='password' type='password' onChange={() => setPwdError(false)} required>Password</InputBox>
 				<InputBox name='password2' type='password' showError={pwdError} onChange={() => setPwdError(false)} errorMessage={pwdErrorMessage} required>Repeat password</InputBox>
