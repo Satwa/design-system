@@ -1,6 +1,115 @@
 {
   "dsp_spec_version": "0.0.1",
-  "last_updated_by": "",
+  "last_updated_by": "Romain Penchenat",
   "last_updated": "2020-10-22T08:04:22.855Z",
-  "entities": []
+  "entities": [
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "e5943a10-3ac2-4956-b067-0ad977f759fd",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Button/Primary/Default",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "0d0c1c28-8eb1-4464-bb07-85b1a9022981",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "366961aa-0eec-48ac-8cf6-b3a57568ae3b",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Button/Primary/Hover",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "fec7abe5-5bc5-4173-afac-2be19f42bcdd",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "8f469acf-3fc1-415a-97a0-a47f4f887fb0",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Button/Primary/Pushed",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "6fc6d5b3-638b-44f1-89a2-9c262726fac4",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "70c9874e-31e7-471c-82a0-581946133c57",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Input/Default",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "44cf0b98-3282-4808-8cee-82d62ab226cb",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "82e9da00-f05f-48f5-93e1-b69ca17bc214",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Input/Error",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "a851d381-1aa3-48f1-b9a1-34cc0c685b3b",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "5f4119d6-844d-49d4-9026-f05847b75f52",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Input/Hover",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/d25ca8cf-63a6-4419-7a2a-8936f224d44b",
+        "id": "d669675a-b9ea-4700-ac85-00ec2c29747a",
+        "last_sync": "2020-10-22T09:21:36.680Z",
+        "sync": true
+      }
+    }
+  ]
 }

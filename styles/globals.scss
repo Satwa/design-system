@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import '../DesignSystemHetic/dist/styledictionary/scss/variables.scss';
 
+$space-xxs: '4px';
+$space-xs: '8px';
+$space-s: '16px';
+$space-m: '32px';
+$space-l: '64px';
+$space-xl: '128px';
+
+$radius: '5px';
+
 html,
 body {
   background: $color-background;
@@ -21,21 +30,21 @@ a {
 
 // Texts
 h1 {
-
-}
-
-h2 {
-
+  font-size: $text-h-1-size;
+  font-weight: $text-h-1-style;
 }
 
 h3 {
-
-}
-
-h4 {
-
+  font-size: $text-h-3-size;
+  font-weight: $text-h-3-style;
 }
 
 p {
+  font-size: $text-body-size;
+  font-weight: $text-body-style;
+}
 
+p.bold {
+  font-size: $text-body-bold-size;
+  font-weight: $text-body-bold-style;
 }
