@@ -1,0 +1,31 @@
+@import '../variables.scss';
+
+.button {
+	&:hover,
+	&:focus {
+        opacity: 0.8;
+	}
+	&:focus-visible {
+		outline: auto;
+	}
+}
+
+.inline {
+    color: $color-primary;
+}
+
+.primary, .secondary {
+    padding: $space-s $space-m;
+    border-radius: 24px;
+}
+
+.primary {
+    border: none;
+    background: $color-primary;
+    color: $color-background;
+}
+
+.secondary {
+    border: 2px solid $color-secondary;
+    color: $color-secondary;
+}
