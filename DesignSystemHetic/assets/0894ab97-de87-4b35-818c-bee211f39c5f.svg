@@ -1,0 +1,10 @@
+<svg id="Input" xmlns="http://www.w3.org/2000/svg" width="272" height="51" viewBox="0 0 272 51">
+  <g id="Input-2" data-name="Input">
+    <g id="box" fill="none" stroke="#2ec1ac" stroke-width="2">
+      <rect width="272" height="51" rx="25.5" stroke="none"/>
+      <rect x="1" y="1" width="270" height="49" rx="24.5" fill="none"/>
+    </g>
+    <rect id="box-2" data-name="box" width="240" height="19" transform="translate(16 16)" fill="none"/>
+  </g>
+  <text id="label" transform="translate(136 32)" fill="#2ec1ac" font-size="16" font-family="Lato-Regular, Lato" opacity="0.6"><tspan x="-16.456" y="0">label</tspan></text>
+</svg>

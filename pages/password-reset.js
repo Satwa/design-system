@@ -18,7 +18,7 @@ export default function PasswordReset() {
 	}
 
 	return (
-		<div className={styles.container}>
+		<main>
 			<h1>Password reset</h1>
 
 			<p>
@@ -55,6 +55,6 @@ export default function PasswordReset() {
 					Change your password
 				</Button>
 			</form>
-		</div>
+		</main>
 	)
 }

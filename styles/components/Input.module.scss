@@ -2,10 +2,12 @@
 
 .input {
 	-webkit-appearance: none;
+	min-width: 300px;
 	border: 2px solid $color-secondary;
 	border-radius: 24px;
 	background: transparent;
-	padding: $space-xs $space-s;
+	padding: $space-s $space-m;
+	text-align: center;
 	&:hover,
 	&:focus {
 		outline: none;

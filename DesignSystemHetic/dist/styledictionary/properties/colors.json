@@ -1,10 +1,10 @@
 {
   "color": {
-    "color-primary": {
-      "value": "#197568ff"
+    "color-background": {
+      "value": "#F5FCFCff"
     },
-    "color-text-secondary": {
-      "value": "#3E978Bff"
+    "color-primary": {
+      "value": "#308277ff"
     },
     "color-secondary": {
       "value": "#2EC1ACff"
@@ -14,9 +14,6 @@
     },
     "color-text-error": {
       "value": "#FF3E3Eff"
-    },
-    "color-background": {
-      "value": "#FAFAFAff"
     }
   }
 }

@@ -21,16 +21,12 @@ export default function SignIn() {
 	}
 
 	return (
-		<div className={styles.container}>
+		<main>
 			<h1>Sign In</h1>
-
-			<p>
-				Not signed up?
-				{' '}
-				<Button to='/signup' inline>
-					Register
-				</Button>
-			</p>
+			<span className='logoSmall'>🧠</span>
+			<Button to='/signup' inline>
+				Do not have an account yet? Register
+			</Button>
 
 			<form method='POST' onSubmit={_onFormSubmit}>
 				<InputBox name='email' type='email' showError={emailError} onChange={() => setEmailError(false)} errorMessage={emailErrorMessage} required>Email</InputBox>
@@ -43,6 +39,6 @@ export default function SignIn() {
 					Sign in
 				</Button>
 			</form>
-		</div>
+		</main>
 	)
 }

@@ -11,6 +11,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -24,6 +34,9 @@ a {
 h1 {
   font-size: $text-h-1-size;
   font-weight: $text-h-1-style;
+  color: $color-primary;
+  text-align: center;
+  margin: 0 0 $space-s 0;
 }
 
 h3 {
@@ -39,4 +52,16 @@ label, span, p {
 button, p.bold {
   font-size: $text-body-bold-size;
   font-weight: $text-body-bold-style;
+}
+
+.logoSmall {
+  font-size: 80px;
+}
+
+// Form
+form {
+  margin: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

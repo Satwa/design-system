@@ -9,11 +9,9 @@ export default function Button(props) {
 		</button>
 	) : (
 		<Link href={props.to}>
-			<a>
-				<span className={classNames({ [styles.inline]: props.inline, [styles.secondary]: props.secondary, [styles.primary]: !props.inline && !props.secondary }, styles.button)} onClick={props.onClick}>
-					<span>{props.children || props.text}</span>
-				</span>
-			</a>
+			<div className={classNames({ [styles.inline]: props.inline, [styles.secondary]: props.secondary, [styles.primary]: !props.inline && !props.secondary }, styles.button)} onClick={props.onClick}>
+				<span>{props.children || props.text}</span>
+			</div>
 		</Link>
 	)
 	// (

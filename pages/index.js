@@ -1,18 +1,17 @@
 import Button from '../components/button'
-import styles from '../styles/Home.module.scss'
+import s from '../styles/Home.module.scss'
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
-			<Button to='/signup' inline>
-				Register
-			</Button>
-			<Button to='/signin' inline>
+		<main>
+			<h1>Welcome to Design System!</h1>
+			<span className={s.logo}>🧠</span>
+			<Button to='/signin' primary>
 				Sign in
 			</Button>
-			<Button to='/password-reset' inline>
-				Reset password
+			<Button to='/signup' inline>
+				New ? Sign up now !
 			</Button>
-		</div>
+		</main>
 	)
 }

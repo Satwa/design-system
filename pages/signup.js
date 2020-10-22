@@ -28,7 +28,7 @@ export default function SignUp() {
 	}
 
 	return (
-		<div className={styles.container}>
+		<main>
 			<h1>Sign Up</h1>
 
 			<p>
@@ -48,6 +48,6 @@ export default function SignUp() {
 					Sign Up
 				</Button>
 			</form>
-		</div>
+		</main>
 	)
 }
