@@ -4,10 +4,7 @@ import classNames from 'classnames'
 export default function Input(props) {
 	return (
 		<input 
-			type={props.type} 
-			name={props.name} 
-			id={props.id} 
-			onChange={props.onChange}
+			{...props}
 			className={classNames(styles.input, props.className)} 
 		/>
 	)

@@ -40,9 +40,9 @@ export default function SignUp() {
 			</p>
 
 			<form method='POST' onSubmit={_onFormSubmit}>
-				<InputBox name='email' type='email' showError={emailError} onChange={() => setEmailError(false)} errorMessage={emailErrorMessage}>Email</InputBox>
-				<InputBox name='password' type='password' onChange={() => setPwdError(false)}>Password</InputBox>
-				<InputBox name='password2' type='password' showError={pwdError} onChange={() => setPwdError(false)} errorMessage={pwdErrorMessage}>Repeat password</InputBox>
+				<InputBox name='email' type='email' showError={emailError} onChange={() => setEmailError(false)} errorMessage={emailErrorMessage} required>Email</InputBox>
+				<InputBox name='password' type='password' onChange={() => setPwdError(false)} required>Password</InputBox>
+				<InputBox name='password2' type='password' showError={pwdError} onChange={() => setPwdError(false)} errorMessage={pwdErrorMessage} required>Repeat password</InputBox>
 
 				<Button submit>
 					Sign Up

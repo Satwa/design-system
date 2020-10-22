@@ -35,6 +35,7 @@ export default function PasswordReset() {
 					type='password' 
 					onChange={() => setError(false)}
 					showError={error}
+					required
 				>
 					Password
 				</InputBox>
@@ -45,6 +46,7 @@ export default function PasswordReset() {
 					onChange={() => setError(false)}
 					showError={error}
 					errorMessage={errorMessage}
+					required
 				>
 					Repeat password
 				</InputBox>

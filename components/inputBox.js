@@ -10,7 +10,7 @@ export default function InputBox(props) {
 			<Label for={props.name} classNames={classNames(styles.label, { [styles.error]: props.showError })}>
 				{props.text || props.children}
 			</Label>
-			<Input type={props.type} name={props.name} id={props.name} onChange={props.onChange} />
+			<Input type={props.type} name={props.name} id={props.name} onChange={props.onChange} required={props.required} />
 			{
 				props.showError && (
 					<ErrorMessage>
