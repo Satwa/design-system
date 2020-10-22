@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@import '../DesignSystemHetic/dist/styledictionary/scss/variables.scss';
-
-$space-xxs: '4px';
-$space-xs: '8px';
-$space-s: '16px';
-$space-m: '32px';
-$space-l: '64px';
-$space-xl: '128px';
-
-$radius: '5px';
+@import './variables.scss';
 
 html,
 body {
@@ -45,7 +36,7 @@ label, span, p {
   font-weight: $text-body-style;
 }
 
-p.bold {
+button, p.bold {
   font-size: $text-body-bold-size;
   font-weight: $text-body-bold-style;
 }
