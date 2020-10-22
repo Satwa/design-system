@@ -3,6 +3,13 @@ import InputBox from '../components/inputBox'
 import styles from '../styles/Home.module.scss'
 
 export default function SignUp() {
+	const _onFormSubmit = (ev) => {
+		ev.preventDefault()
+
+		const fields = document.querySelectorAll('form input')
+		console.log(fields)
+	}
+
 	return (
 		<div className={styles.container}>
 			<h1>Sign Up</h1>
@@ -15,12 +22,14 @@ export default function SignUp() {
 				</Button>
 			</p>
 
-			<InputBox name='email' type='email'>Email</InputBox>
-			<InputBox name='password' type='password'>Password</InputBox>
+			<form method='POST' onSubmit={_onFormSubmit}>
+				<InputBox name='email' type='email'>Email</InputBox>
+				<InputBox name='password' type='password'>Password</InputBox>
 
-			<Button submit>
-				Sign Up
-			</Button>
+				<Button submit>
+					Sign Up
+				</Button>
+			</form>
 		</div>
 	)
 }
