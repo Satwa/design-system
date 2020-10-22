@@ -1,13 +1,9 @@
 @import '../variables.scss';
 
 .button {
+    transition: all .2s;
     cursor: pointer;
     text-align: center;
-	&:hover,
-	&:focus {
-        opacity: 0.8;
-        transform: scale(1.02);
-	}
 	&:focus-visible {
 		outline: auto;
 	}
@@ -16,6 +12,11 @@
 .inline {
     margin-top: 8px;
     color: $color-primary;
+    &:hover,
+	&:focus {
+        opacity: 0.8;
+        transform: scale(1.02);
+	}
 }
 
 .primary, .secondary {
@@ -28,7 +29,18 @@
 .primary {
     border: none;
     background: $color-primary;
+    border: 2px solid $color-primary;
     color: $color-background;
+    &:hover,
+    &:focus {
+        background: $color-secondary;
+        border: 2px solid $color-secondary;
+    }
+    &:active {
+        background: transparent;
+        border: 2px solid $color-primary;
+        color: $color-primary;
+    }
 }
 
 .secondary {

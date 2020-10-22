@@ -12,7 +12,7 @@ export default function PasswordReset() {
 
 		const fields = document.querySelectorAll('form input')
 		if(fields[0].value !== fields[1].value) {
-			setErrorMessage('Vos deux mots de passe ne sont pas identiques.')
+			setErrorMessage('Les mots de passe ne correspondent pas')
 			setError(true)
 		}
 	}

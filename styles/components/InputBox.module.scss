@@ -5,13 +5,33 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    &:hover .label {
+        transform: translate(-50%, -125%) scale(0.75);
+        color: $color-primary;
+        opacity: 1;
+    }
+}
+
+.inputError {
+    border-color: $color-text-error !important;
 }
 
 .label {
+    transition: all .2s;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transform-origin: top;
     color: $color-secondary;
     opacity: 0.5;
+    width: 100%;
+    text-align: center;
+    &.error {
+        color: $color-text-error !important;
+        opacity: 1;
+    }
+    &.filled {
+        transform: translate(-50%, -125%) scale(0.75);
+    }
 }
