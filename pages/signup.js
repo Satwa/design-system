@@ -20,22 +20,27 @@ export default function SignUp() {
 		ev.preventDefault()
 
 		const fields = document.querySelectorAll('form input')
+		let anyError = false
 
 		if(fields[0].value.trim().length === 0){
 			setTextErrorMessage('Alors comme ça vous n\'avez pas de nom ?')
 			setTextError(true)
+			anyError = true
 		}
 
 		if(!emailRegex.test(fields[1].value)) {
 			setEmailErrorMessage('Adresse e-mail invalide')
 			setEmailError(true)
+			anyError = true
 		}
+
 		if(fields[2].value !== fields[3].value) {
 			setPwdErrorMessage('Les mots de passe ne correspondent pas')
 			setPwdError(true)
+			anyError = true
 		}
 
-		if(!pwdError && !emailError && !textError) {
+		if(anyError) {
 			Router.push('/')
 		}
 	}
