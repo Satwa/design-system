@@ -21,12 +21,6 @@ export default function PasswordReset() {
 		<div className={styles.container}>
 			<h1>Password reset</h1>
 
-			{
-				error && (
-					<p>WUT</p>
-				)
-			}
-
 			<p>
 				You remember your password now?
 				{' '}
